@@ -1,0 +1,61 @@
+.counter-app{
+    text-align: center;
+    border: 8px solid black;
+    border-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.counter-app button{
+    margin-bottom: 20px;
+}
+
+.counter-app button:hover{
+    background-color: aqua;
+    color: black;
+    opacity: 0.6;
+    transition: all;
+    
+}
+
+.count-display{
+    font-size: 100px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left-button{
+    margin-right: 20px;
+    text-align: center;
+    height: 50px;
+    width: 110px;
+    background-color: hsl(206, 100%, 50%);    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+.middle-button{
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    height: 50px;
+    width: 110px;
+    background-color: hsl(206, 100%, 50%);
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+.right-button{
+    margin-left: 20px;
+    text-align: center;
+    height: 50px;
+    width: 110px;
+    background-color: hsl(206, 100%, 50%);    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: white;
+}

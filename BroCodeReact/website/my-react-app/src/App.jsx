@@ -5,11 +5,12 @@
 //useState() = A React hook that allows the creation of a stateful variable 
 //             AND a setter function to update its value in the Virtual DOM.
 //             [name,setName]
-import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
+//import MyComponent from "./MyComponent.jsx";
 function App() {
   return (
     <>
-      <MyComponent/>
+      <Counter/>
       
     </>
   );
