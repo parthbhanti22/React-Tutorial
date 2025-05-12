@@ -1,17 +1,13 @@
-//React hook = Special function that allows finctional compnents
-//             to use react features without writing class components(React v16.8)
-//             (useState, useEffect, useContext, useReducer,useCallback, and more...)
+//onChange = event handler used primarily with form elements
+//           ex. <input>,<textarea>,<select>,<radio>
+//           Triggers a function every time the value of the input changes
 
-//useState() = A React hook that allows the creation of a stateful variable 
-//             AND a setter function to update its value in the Virtual DOM.
-//             [name,setName]
-import Counter from "./Counter.jsx";
-//import MyComponent from "./MyComponent.jsx";
+import MyComponent from "./MyComponent.jsx";
+
 function App() {
   return (
     <>
-      <Counter/>
-      
+      <MyComponent/>
     </>
   );
 
